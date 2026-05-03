@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fast Business Setup Dubai in 5 Days | 3S Business Services</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --gold: #A79D80; --gold-dark: #8a8066; --navy: #061b38; --blue: #2d5275;
+    --black: #000000; --body: #5F5F5F; --light: #f6f6f6; --border: #EEEEEE; --white: #ffffff;
+    
+    --font-main: 'Plus Jakarta Sans', sans-serif; --font-heading: 'Space Grotesk', sans-serif;
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: var(--font-main); color: var(--body); background: var(--white); overflow-x: hidden; font-size: 16px; line-height: 1.7; }
+
+  /* NAV */
+  .topbar { background: var(--white); border-bottom: 1px solid var(--border); padding: 16px 40px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+  .topbar img { height: 52px; width: auto; }
+  .topbar-cta { display: inline-flex; align-items: center; gap: 8px; background: var(--gold); color: var(--white); font-family: var(--font-heading); font-weight: 600; font-size: 14px; padding: 10px 22px; border-radius: 5px; text-decoration: none; transition: background 0.2s ease; }
+  .topbar-cta:hover { background: #8a8066; }
+
+  /* HERO */
+  .hero { background: linear-gradient(135deg, var(--navy) 0%, #0a2844 60%, #0d3560 100%); min-height: 90vh; display: flex; align-items: center; position: relative; overflow: hidden; padding: 80px 40px; }
+  .hero::before { content: ''; position: absolute; inset: 0; background-image: linear-gradient(rgba(167,157,128,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(167,157,128,0.05) 1px, transparent 1px); background-size: 72px 72px; pointer-events: none; }
+  .hero::after { content: ''; position: absolute; right: -100px; top: -100px; width: 600px; height: 600px; background: radial-gradient(circle, rgba(167,157,128,0.1) 0%, transparent 65%); pointer-events: none; }
+  .hero-inner { max-width: 1100px; margin: 0 auto; width: 100%; display: grid; grid-template-columns: 1fr 420px; gap: 64px; align-items: center; position: relative; z-index: 2; }
+
+  .speed-badge { display: inline-flex; align-items: center; gap: 10px; background: rgba(167,157,128,0.15); border: 1px solid rgba(167,157,128,0.4); color: #A79D80; font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; padding: 8px 18px; border-radius: 3px; margin-bottom: 24px; animation: fadeUp 0.6s ease both; }
+  .speed-badge .pulse { width: 8px; height: 8px; background: #A79D80; border-radius: 50%; animation: pulse 1.5s infinite; }
+  @keyframes pulse { 0%,100%{transform:scale(1);opacity:1} 50%{transform:scale(1.4);opacity:0.7} }
+
+  .hero h1 { font-family: var(--font-heading); font-size: clamp(36px, 5vw, 60px); font-weight: 700; line-height: 1.1; color: var(--white); margin-bottom: 20px; animation: fadeUp 0.7s ease 0.1s both; }
+  .hero h1 .highlight { color: #A79D80; }
+  .hero h1 .gold { color: var(--gold); }
+
+  .hero-lead { font-size: 17px; color: rgba(255,255,255,0.75); line-height: 1.8; margin-bottom: 36px; max-width: 520px; animation: fadeUp 0.7s ease 0.2s both; }
+  .hero-btns { display: flex; gap: 14px; flex-wrap: wrap; animation: fadeUp 0.7s ease 0.3s both; }
+
+  /* TIMELINE STRIP */
+  .timeline-strip { display: flex; gap: 0; margin-top: 40px; animation: fadeUp 0.7s ease 0.4s both; }
+  .t-step { flex: 1; text-align: center; position: relative; }
+  .t-step::after { content: '→'; position: absolute; right: -10px; top: 50%; transform: translateY(-50%); color: var(--gold); font-size: 18px; z-index: 1; }
+  .t-step:last-child::after { display: none; }
+  .t-day { font-family: var(--font-heading); font-size: 11px; font-weight: 700; color: var(--gold); letter-spacing: 2px; text-transform: uppercase; margin-bottom: 4px; }
+  .t-label { font-size: 12px; color: rgba(255,255,255,0.7); line-height: 1.4; }
+
+  /* BUTTONS */
+  .btn-gold-2 { display: inline-flex; align-items: center; gap: 8px; background: var(--gold); color: var(--white); font-family: var(--font-heading); font-weight: 700; font-size: 15px; padding: 14px 28px; border-radius: 5px; text-decoration: none; transition: all 0.2s ease; }
+  .btn-gold-2:hover { background: #8a8066; transform: translateY(-2px); box-shadow: 0 10px 30px rgba(167,157,128,0.3); }
+  .btn-outline { display: inline-flex; align-items: center; gap: 8px; background: transparent; color: var(--white); font-family: var(--font-heading); font-weight: 600; font-size: 15px; padding: 14px 28px; border-radius: 5px; text-decoration: none; border: 1px solid rgba(255,255,255,0.3); transition: all 0.2s ease; }
+  .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+  .btn-gold { display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: var(--gold); color: var(--white); font-family: var(--font-heading); font-weight: 700; font-size: 15px; padding: 14px 28px; border-radius: 5px; text-decoration: none; transition: all 0.2s ease; border: none; cursor: pointer; }
+  .btn-gold:hover { background: var(--gold-dark); transform: translateY(-2px); }
+  .btn-blue { display: inline-flex; align-items: center; justify-content: center; width: 100%; background: var(--blue); color: var(--white); font-family: var(--font-heading); font-weight: 700; font-size: 14px; padding: 13px; border-radius: 5px; text-decoration: none; transition: all 0.2s ease; }
+  .btn-blue:hover { background: #1e3d5c; }
+
+  /* HERO CARD */
+  .hero-card { background: var(--white); border-radius: 12px; padding: 36px 32px; box-shadow: 0 24px 80px rgba(0,0,0,0.35); animation: fadeUp 0.8s ease 0.2s both; }
+  .card-timer { background: linear-gradient(135deg, #052040, #0a2844); border-radius: 8px; padding: 16px; text-align: center; margin-bottom: 20px; }
+  .card-timer .timer-label { font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.6); margin-bottom: 4px; }
+  .card-timer .timer-val { font-family: var(--font-heading); font-size: 28px; font-weight: 700; color: #A79D80; }
+  .hero-card h3 { font-family: var(--font-heading); font-size: 19px; font-weight: 700; color: var(--black); margin-bottom: 6px; }
+  .hero-card p { font-size: 13px; color: var(--body); margin-bottom: 20px; }
+  .form-group { margin-bottom: 13px; }
+  .form-group label { display: block; font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--body); margin-bottom: 5px; }
+  .form-group input, .form-group select { width: 100%; border: 1px solid var(--border); border-radius: 5px; padding: 11px 14px; font-size: 14px; color: var(--black); font-family: var(--font-main); transition: border-color 0.2s; outline: none; background: var(--white); }
+  .form-group input:focus, .form-group select:focus { border-color: #A79D80; }
+  .form-submit { width: 100%; background: var(--navy); color: var(--white); font-family: var(--font-heading); font-weight: 700; font-size: 15px; padding: 14px; border: none; border-radius: 5px; cursor: pointer; transition: all 0.2s ease; margin-top: 4px; }
+  .form-submit:hover { background: var(--navy); }
+  .form-divider { text-align: center; font-size: 12px; color: #aaa; margin: 12px 0; position: relative; }
+  .form-divider::before, .form-divider::after { content: ''; position: absolute; top: 50%; width: 40%; height: 1px; background: var(--border); }
+  .form-divider::before { left: 0; } .form-divider::after { right: 0; }
+  .btn-wa { width: 100%; display: flex; align-items: center; justify-content: center; gap: 8px; background: var(--gold); color: var(--white); font-family: var(--font-heading); font-weight: 700; font-size: 15px; padding: 13px; border-radius: 5px; text-decoration: none; transition: all 0.2s ease; }
+  .btn-wa:hover { background: #8a8066; }
+
+  /* TRUST BAR */
+  .trust-bar { background: var(--light); border-bottom: 1px solid var(--border); padding: 20px 40px; }
+  .trust-inner { max-width: 1100px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: center; gap: 20px 44px; }
+  .trust-item { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--black); }
+  .trust-item .dot { width: 8px; height: 8px; background: #A79D80; border-radius: 50%; flex-shrink: 0; }
+
+  /* JURISDICTIONS */
+  .jurisdictions { background: var(--white); padding: 48px 40px; border-bottom: 1px solid var(--border); }
+  .jur-inner { max-width: 1100px; margin: 0 auto; }
+  .jur-title { font-size: 12px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--body); text-align: center; margin-bottom: 28px; }
+  .jur-logos { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 32px 48px; }
+  .jur-logos img { height: 44px; width: auto; filter: grayscale(100%) opacity(0.55); transition: filter 0.2s ease; }
+  .jur-logos img:hover { filter: grayscale(0%) opacity(1); }
+
+  /* SECTIONS */
+  section { padding: 80px 40px; }
+  .container { max-width: 1100px; margin: 0 auto; }
+  .section-label { font-size: 11px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; display: block; }
+  .section-title { font-family: var(--font-heading); font-size: clamp(26px, 3.5vw, 40px); font-weight: 700; color: var(--black); line-height: 1.2; margin-bottom: 14px; }
+  .section-sub { font-size: 16px; color: var(--body); max-width: 540px; line-height: 1.8; }
+
+  /* PROCESS STEPS */
+  .steps-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; margin-top: 52px; position: relative; }
+  .steps-grid::before { content: ''; position: absolute; top: 32px; left: 10%; right: 10%; height: 2px; background: linear-gradient(90deg, var(--gold), rgba(167,157,128,0.2)); z-index: 0; }
+  .step { text-align: center; position: relative; z-index: 1; padding: 0 12px; }
+  .step-circle { width: 64px; height: 64px; border-radius: 50%; background: var(--white); border: 2px solid var(--gold); display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-family: var(--font-heading); font-size: 20px; font-weight: 700; color: var(--gold); box-shadow: 0 4px 16px rgba(167,157,128,0.2); }
+  .step-day { font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #A79D80; margin-bottom: 6px; }
+  .step h4 { font-family: var(--font-heading); font-size: 14px; font-weight: 700; color: var(--black); margin-bottom: 6px; }
+  .step p { font-size: 12px; color: var(--body); line-height: 1.6; }
+
+  /* SERVICES */
+  .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 48px; }
+  .service-card { border: 1px solid var(--border); border-radius: 12px; padding: 32px 28px; transition: all 0.3s ease; position: relative; overflow: hidden; }
+  .service-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: #A79D80; transform: scaleX(0); transition: transform 0.3s ease; transform-origin: left; }
+  .service-card:hover { border-color: #A79D80; box-shadow: 0 12px 40px rgba(0,0,0,0.08); transform: translateY(-4px); }
+  .service-card:hover::before { transform: scaleX(1); }
+  .service-icon { width: 52px; height: 52px; background: rgba(167,157,128,0.08); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 24px; margin-bottom: 20px; }
+  .service-card h3 { font-family: var(--font-heading); font-size: 20px; font-weight: 700; color: var(--black); margin-bottom: 10px; }
+  .service-card p { font-size: 14px; color: var(--body); line-height: 1.75; margin-bottom: 16px; }
+  .speed-tag { display: inline-block; background: rgba(167,157,128,0.1); color: #8a8066; font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 20px; border: 1px solid rgba(167,157,128,0.3); }
+
+  /* WHAT HAPPENS NEXT */
+  .next-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-top: 48px; }
+  .next-item { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 24px; }
+  .next-num { font-family: var(--font-heading); font-size: 32px; font-weight: 700; color: rgba(167,157,128,0.2); margin-bottom: 8px; }
+  .next-item h4 { font-family: var(--font-heading); font-size: 15px; font-weight: 700; color: var(--black); margin-bottom: 8px; }
+  .next-item p { font-size: 13px; color: var(--body); line-height: 1.7; }
+
+  /* FAQ */
+  .faq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 48px; }
+  .faq-item { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 24px; }
+  .faq-q { font-family: var(--font-heading); font-size: 15px; font-weight: 700; color: var(--black); margin-bottom: 10px; display: flex; gap: 10px; }
+  .faq-q::before { content: 'Q'; color: var(--gold); font-size: 16px; flex-shrink: 0; }
+  .faq-a { font-size: 13px; color: var(--body); line-height: 1.8; padding-left: 22px; }
+
+  /* FINAL CTA */
+  .final-cta { background: linear-gradient(135deg, var(--navy), #0a2844); padding: 100px 40px; text-align: center; position: relative; overflow: hidden; }
+  .final-cta::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 50% 60% at 50% 50%, rgba(167,157,128,0.06) 0%, transparent 70%); pointer-events: none; }
+  .final-cta h2 { font-family: var(--font-heading); font-size: clamp(28px, 4vw, 44px); font-weight: 700; color: var(--white); margin-bottom: 14px; position: relative; z-index: 1; }
+  .final-cta p { color: rgba(255,255,255,0.65); font-size: 16px; margin-bottom: 36px; position: relative; z-index: 1; }
+  .final-btns { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; position: relative; z-index: 1; }
+
+  footer { background: var(--black); padding: 28px 40px; text-align: center; font-size: 13px; color: rgba(255,255,255,0.45); }
+  footer a { color: var(--gold); text-decoration: none; }
+
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+  @media (max-width: 900px) {
+    .hero-inner { grid-template-columns: 1fr; }
+    .steps-grid { grid-template-columns: 1fr 1fr; gap: 24px; }
+    .steps-grid::before { display: none; }
+    .services-grid, .next-grid { grid-template-columns: 1fr; }
+    .faq-grid { grid-template-columns: 1fr; }
+    .hero, section { padding: 60px 20px; }
+    .topbar { padding: 14px 20px; }
+    .timeline-strip { flex-direction: column; gap: 8px; }
+    .t-step::after { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="topbar">
+  <img src="https://3sbusinessme.com/wp-content/uploads/2024/05/Untitled-design-91-e1769077545447.png" alt="3S Business Services">
+  <a href="https://wa.me/971565876341?text=Hi%2C%20I%20want%20fast%20business%20setup%20in%20Dubai" class="topbar-cta" target="_blank">💬 Get Started Now</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="speed-badge"><span class="pulse"></span> Fast Track Registration</div>
+      <h1>Your Dubai Business<br>License — Ready in<br><span class="highlight">5 Working Days</span></h1>
+      <p class="hero-lead">No delays. No chasing paperwork. We handle everything end to end so you can focus on what matters — running your business.</p>
+      <div class="hero-btns">
+        <a href="https://wa.me/971565876341?text=Hi%2C%20I%20want%20fast%20business%20setup%20in%20Dubai" class="btn-green" target="_blank">💬 Start Today</a>
+        <a href="#contact" class="btn-outline">See How It Works</a>
+      </div>
+      <div class="timeline-strip">
+        <div class="t-step"><div class="t-day">Day 1</div><div class="t-label">Consultation + Activity Selection</div></div>
+        <div class="t-step"><div class="t-day">Day 2</div><div class="t-label">Documents + Trade Name Approval</div></div>
+        <div class="t-step"><div class="t-day">Day 3</div><div class="t-label">License Application Filed</div></div>
+        <div class="t-step"><div class="t-day">Day 4</div><div class="t-label">Government Processing</div></div>
+        <div class="t-step"><div class="t-day">Day 5</div><div class="t-label">License Issued. You're Live.</div></div>
+      </div>
+    </div>
+
+    <div class="hero-card" id="contact">
+      <div class="card-timer">
+        <div class="timer-label">Typical Processing Time</div>
+        <div class="timer-val">5 Working Days</div>
+      </div>
+      <h3>Start Your Registration Today</h3>
+      <p>Fill in your details and a consultant will contact you within 1 hour.</p>
+      <form action="mailto:seo@3sbusinessme.com" method="POST" enctype="text/plain">
+        <div class="form-group"><label>Full Name</label><input type="text" name="name" placeholder="Your name" required></div>
+        <div class="form-group"><label>Phone / WhatsApp</label><input type="tel" name="phone" placeholder="+971 XX XXX XXXX" required></div>
+        <div class="form-group"><label>Email Address</label><input type="email" name="email" placeholder="you@example.com"></div>
+        <div class="form-group">
+          <label>Setup Type</label>
+          <select name="setup_type">
+            <option value="">Select an option</option>
+            <option>Freezone — fastest option</option>
+            <option>Mainland</option>
+            <option>Offshore</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <button type="submit" class="form-submit">Start My Registration →</button>
+      </form>
+      <div class="form-divider">or reach us directly</div>
+      <a href="https://wa.me/971565876341?text=Hi%2C%20I%20want%20fast%20business%20setup%20in%20Dubai" class="btn-wa" target="_blank">💬 WhatsApp — Replies Within 1 Hour</a>
+    </div>
+  </div>
+</section>
+
+<div class="trust-bar">
+  <div class="trust-inner">
+    <div class="trust-item"><span class="dot"></span> License in 5 Working Days</div>
+    <div class="trust-item"><span class="dot"></span> 100% Foreign Ownership</div>
+    <div class="trust-item"><span class="dot"></span> Remote Setup Available</div>
+    <div class="trust-item"><span class="dot"></span> 500+ Businesses Launched</div>
+    <div class="trust-item"><span class="dot"></span> One Dedicated Consultant</div>
+  </div>
+</div>
+
+<div class="jurisdictions">
+  <div class="jur-inner">
+    <div class="jur-title">Authorized Associates of UAE's Leading Jurisdictions</div>
+    <div class="jur-logos">
+      <img src="https://3sbusinessme.com/wp-content/uploads/2025/10/qqlioD3aHC6Wdulj67Diyjbcqo-1.png" alt="Meydan">
+      <img src="https://3sbusinessme.com/wp-content/uploads/2025/10/WScRTtYtS2UZM8O0WBvmkCfAHc.png" alt="IFZA">
+      <img src="https://3sbusinessme.com/wp-content/uploads/2025/10/JxAPjI69HHqQKnSI8Pti5eOyDlE.png" alt="Shams">
+      <img src="https://3sbusinessme.com/wp-content/uploads/2025/10/fMBo6Yi2oZYzZ8HID1VommBcL8.png" alt="DET Dubai">
+      <img src="https://3sbusinessme.com/wp-content/uploads/2025/10/XLLrlSphcXurtsZrv2YtjhWgbCc.png" alt="RAKEZ">
+      <img src="https://3sbusinessme.com/wp-content/uploads/2025/10/TALOoYP1rTAMYm4gCgiwXbU1Xo.png" alt="KEZAD">
+    </div>
+  </div>
+</div>
+
+<section style="background: var(--white);">
+  <div class="container">
+    <span class="section-label">Step by Step</span>
+    <h2 class="section-title">How We Get You Live in 5 Days</h2>
+    <p class="section-sub">Every step is handled by your dedicated consultant. You just provide the documents — we do the rest.</p>
+    <div class="steps-grid">
+      <div class="step">
+        <div class="step-circle">1</div>
+        <div class="step-day">Day 1</div>
+        <h4>Free Consultation</h4>
+        <p>We understand your business, recommend the right jurisdiction and activity.</p>
+      </div>
+      <div class="step">
+        <div class="step-circle">2</div>
+        <div class="step-day">Day 2</div>
+        <h4>Trade Name Approval</h4>
+        <p>Your company name is reserved and initial approvals are submitted.</p>
+      </div>
+      <div class="step">
+        <div class="step-circle">3</div>
+        <div class="step-day">Day 3</div>
+        <h4>License Filed</h4>
+        <p>All documents are compiled and your license application is submitted officially.</p>
+      </div>
+      <div class="step">
+        <div class="step-circle">4</div>
+        <div class="step-day">Day 4</div>
+        <h4>Government Review</h4>
+        <p>We follow up directly with the authority so nothing gets delayed or missed.</p>
+      </div>
+      <div class="step">
+        <div class="step-circle">5</div>
+        <div class="step-day">Day 5</div>
+        <h4>License Issued</h4>
+        <p>Your trade license is issued and delivered. You are officially in business.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background: var(--light);">
+  <div class="container">
+    <span class="section-label">Fastest Options</span>
+    <h2 class="section-title">Choose Your Fast Track Setup</h2>
+    <p class="section-sub">All three can be started today. Freezone is the quickest route for most businesses.</p>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">🏢</div>
+        <h3>Freezone Setup</h3>
+        <p>The fastest setup available. 100% foreign ownership, zero corporate tax. Ideal for consultants, freelancers, and international businesses.</p>
+        <div class="speed-tag">⚡ Ready in 5 Days</div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🏙️</div>
+        <h3>Mainland Setup</h3>
+        <p>Full UAE market access with no trade restrictions. Best if you want to work directly with UAE clients or government entities.</p>
+        <div class="speed-tag">📅 Ready in 2 to 3 Weeks</div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🌍</div>
+        <h3>Offshore Setup</h3>
+        <p>Asset protection, cross-border operations, and full ownership privacy. No office required, lowest ongoing cost.</p>
+        <div class="speed-tag">📅 Ready in 1 to 2 Weeks</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background: var(--white);">
+  <div class="container">
+    <span class="section-label">After You Submit</span>
+    <h2 class="section-title">What Happens Next</h2>
+    <p class="section-sub">Most companies leave you guessing. We do not. Here is exactly what to expect after you reach out.</p>
+    <div class="next-grid">
+      <div class="next-item">
+        <div class="next-num">01</div>
+        <h4>Consultant Calls You</h4>
+        <p>A dedicated consultant contacts you within 1 hour to understand your business and recommend the best setup.</p>
+      </div>
+      <div class="next-item">
+        <div class="next-num">02</div>
+        <h4>You Get a Clear Quote</h4>
+        <p>A full cost breakdown with no hidden fees — exactly what you pay, and what is included.</p>
+      </div>
+      <div class="next-item">
+        <div class="next-num">03</div>
+        <h4>We Handle Everything</h4>
+        <p>Documents, submissions, follow-ups — all managed by your consultant. You just approve at key stages.</p>
+      </div>
+      <div class="next-item">
+        <div class="next-num">04</div>
+        <h4>License Delivered</h4>
+        <p>Your trade license is issued and sent to you digitally. Ready to open your bank account and start operating.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background: var(--light);">
+  <div class="container">
+    <span class="section-label">Common Questions</span>
+    <h2 class="section-title">Quick Answers</h2>
+    <div class="faq-grid">
+      <div class="faq-item"><div class="faq-q">Can I really get a license in 5 days?</div><p class="faq-a">Yes — for freezone setups, 5 working days is achievable when all your documents are in order. Our team manages the entire process to keep it on track.</p></div>
+      <div class="faq-item"><div class="faq-q">What documents do I need to get started?</div><p class="faq-a">Passport copy, current UAE visa or tourist visa if applicable, and Emirates ID. Our consultant will confirm the full list based on your chosen activity.</p></div>
+      <div class="faq-item"><div class="faq-q">Do I need to be in Dubai to set up?</div><p class="faq-a">No. Many freezone setups can be completed fully remotely. We will guide you through every step from wherever you are.</p></div>
+      <div class="faq-item"><div class="faq-q">What is included in the setup fee?</div><p class="faq-a">Trade license, government registration, establishment card, and PRO services. Visa and office costs are quoted separately and outlined clearly upfront.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta">
+  <h2>Ready to Get Your License in 5 Days?</h2>
+  <p>Talk to a consultant today — free consultation, no commitment.</p>
+  <div class="final-btns">
+    <a href="https://wa.me/971565876341?text=Hi%2C%20I%20want%20fast%20business%20setup%20in%20Dubai" class="btn-green" target="_blank">💬 WhatsApp Us Now</a>
+    <a href="tel:+971565876341" class="btn-outline">📞 +971 56 587 6341</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 3S Business Services · Sheikh Rashid Tower, 21st Floor, Sheikh Zayed Road, Dubai · <a href="tel:+97143955747">+971 4 395 5747</a> · <a href="mailto:seo@3sbusinessme.com">seo@3sbusinessme.com</a></p>
+</footer>
+
+</body>
+</html>
