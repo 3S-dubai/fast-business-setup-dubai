@@ -1,30 +1,11 @@
-# UAE Safe Travel Website
+UAE Safe Travel - Premium 3S-style website
 
-Ready-to-upload static website for uaesafetravel.com.
-
-## Files
-- index.html
-- styles.css
-- script.js
-- assets/favicon.svg
-- assets/dubai-taxi-illustration.svg
-
-## Before uploading
-Replace this placeholder phone number everywhere:
-
+Replace placeholder phone number everywhere:
 +971000000000
 
-Use the real WhatsApp number in international format, without spaces.
-
-Example:
-+971501234567 should be used in WhatsApp links as:
+For WhatsApp links use the number without + or spaces, example:
 971501234567
 
-## Main SEO target
-Taxi service in Dubai
+Upload index.html and the assets folder to public_html of uaesafetravel.com.
 
-## Recommended upload
-Upload all files to the public_html folder of uaesafetravel.com.
-
-## Important
-The footer includes an independent service disclaimer to avoid confusion with official transport authorities.
+Includes SEO meta, TaxiService schema, FAQ schema, Breadcrumb schema, fixed nav, premium beige/gold styling, service cards, FAQ accordion, CTA and WhatsApp floating button.
