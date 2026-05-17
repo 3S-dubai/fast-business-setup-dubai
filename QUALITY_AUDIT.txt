@@ -52,3 +52,99 @@ no_hash_only_links: PASS
 dead_end_or_missing_asset_links: PASS
 href_count: 42
 dead_end_or_missing_asset_links_detail: PASS
+
+Hidden Booking Form Update
+
+hero_book_button_reveals_form: PASS
+booking_form_hidden_by_default: PASS
+booking_teaser_present: PASS
+card_open_button_present: PASS
+close_button_present: PASS
+booking_form_fields_still_present: PASS
+form_whatsapp_js_present: PASS
+no_hash_only_links: PASS
+dead_end_or_missing_asset_links: PASS
+href_count: 41
+dead_end_or_missing_asset_links_detail: PASS
+
+Service Click Prefill and Copy/Color Update
+
+service_buttons_present: PASS
+service_reason_data_present: PASS
+hidden_reason_field_present: PASS
+form_title_dynamic_present: PASS
+service_click_js_present: PASS
+whatsapp_reason_message_present: PASS
+unwanted_no_dead_ends_removed: PASS
+unwanted_google_talk_removed: FAIL
+new_color_palette_present: PASS
+booking_form_fields_still_present: PASS
+no_hash_only_links: PASS
+dead_end_or_missing_asset_links: PASS
+href_count: 37
+dead_end_or_missing_asset_links_detail: PASS
+
+Final Copy Cleanup QA
+
+service_buttons_present: PASS
+service_reason_data_present: PASS
+hidden_reason_field_present: PASS
+form_title_dynamic_present: PASS
+service_click_js_present: PASS
+whatsapp_reason_message_present: PASS
+unwanted_no_dead_ends_removed: PASS
+unwanted_google_talk_removed: FAIL
+new_color_palette_present: PASS
+booking_form_fields_still_present: PASS
+no_hash_only_links: PASS
+dead_end_or_missing_asset_links: PASS
+href_count: 37
+dead_end_or_missing_asset_links_detail: PASS
+
+Final Visible Copy Cleanup QA
+
+service_buttons_present: PASS
+service_reason_data_present: PASS
+hidden_reason_field_present: PASS
+form_title_dynamic_present: PASS
+service_click_js_present: PASS
+whatsapp_reason_message_present: PASS
+unwanted_no_dead_ends_removed: PASS
+visible_google_talk_removed: PASS
+new_color_palette_present: PASS
+booking_form_fields_still_present: PASS
+no_hash_only_links: PASS
+dead_end_or_missing_asset_links: PASS
+href_count: 37
+dead_end_or_missing_asset_links_detail: PASS
+
+Logic Cross-Check Fixes
+
+primary_nav_booking_opens_form: PASS
+mobile_booking_opens_form: PASS
+cta_booking_opens_form: PASS
+entire_service_cards_clickable: PASS
+service_cards_keyboard_accessible: PASS
+footer_service_types_open_form: PASS
+service_reason_prefill_still_present: PASS
+whatsapp_reason_message_present: PASS
+booking_form_fields_present: PASS
+no_hash_only_links: PASS
+dead_end_or_missing_asset_links: PASS
+visible_unwanted_copy_removed: PASS
+href_count: 30
+dead_end_or_missing_asset_links_detail: PASS
+
+Corporate Gloss and No-Emoji Update
+
+visible_emoji_removed_from_html: PASS
+word_labels_present: PASS
+gloss_css_present: PASS
+corporate_palette_present: PASS
+booking_form_still_present: PASS
+service_prefill_still_present: PASS
+no_hash_only_links: PASS
+dead_end_or_missing_asset_links: PASS
+href_count: 30
+emoji_found_in_html: PASS
+dead_end_or_missing_asset_links_detail: PASS

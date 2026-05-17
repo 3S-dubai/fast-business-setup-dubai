@@ -12,6 +12,13 @@ Files:
 - assets/og-image.svg
 
 Latest update:
+- Service/type-of-travel clicks now open the same booking form.
+- Booking form title and WhatsApp message are prefilled with the clicked service reason.
+- Removed internal website-quality wording from visible content.
+- Updated palette to a more polished taxi yellow, warm cream and deep black look.
+- Hid the quick booking form behind the Book on WhatsApp button.
+- Added a clean booking teaser card instead of showing the full form immediately.
+- Added close/reopen behavior for the booking form.
 - Added subtle optional map link fields for To and From.
 - Optional map links are included in the WhatsApp message only as booking details, without visually highlighting them too much.
 - Replaced hero booking steps with a working booking form: Date, To, From, Number of people, and Any additional info.
@@ -43,3 +50,18 @@ Future pages recommended:
 
 Upload:
 Upload index.html, styles.css, script.js and the assets folder to public_html for uaesafetravel.com.
+
+Final visible copy cleanup:
+- Removed internal SEO/user-journey wording from visible page copy.
+
+Logic check fixes:
+- Primary booking CTAs now open the detailed booking form instead of bypassing it.
+- Entire travel-type cards are clickable and keyboard accessible.
+- Footer service type links also open the booking form with the right travel reason.
+- Service button clicks stop propagation to avoid duplicate triggers.
+
+Corporate gloss update:
+- Removed emoji-style icons from visible content.
+- Replaced icons with actual word labels such as AIRPORT, CITY, HOTEL and FAMILY.
+- Reworked color palette into corporate glossy taxi yellow, warm champagne and deep black.
+- Added glossy/plastic gradients, inset highlights and polished card treatments.
