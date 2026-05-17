@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a7a5d"/>
+      <stop offset="100%" stop-color="#043d30"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffd56d"/>
+      <stop offset="100%" stop-color="#c9952d"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="500" fill="url(#sky)"/>
+  <circle cx="720" cy="95" r="64" fill="#ffffff" opacity="0.16"/>
+  <path d="M95 380 C210 315 305 335 402 278 C515 211 625 248 804 160 L804 500 L95 500 Z" fill="#ffffff" opacity="0.09"/>
+  <g opacity="0.34" fill="#ffffff">
+    <rect x="110" y="150" width="44" height="210" rx="8"/>
+    <rect x="174" y="98" width="54" height="262" rx="8"/>
+    <rect x="252" y="128" width="40" height="232" rx="8"/>
+    <rect x="640" y="118" width="48" height="242" rx="8"/>
+    <rect x="710" y="70" width="60" height="290" rx="8"/>
+    <rect x="792" y="142" width="36" height="218" rx="8"/>
+  </g>
+  <g transform="translate(178 300)">
+    <path d="M50 80 L105 18 C118 4 136 -3 155 0 L382 34 C416 39 444 62 456 94 L471 134 H39 C19 134 3 118 3 98 C3 88 10 80 20 80 Z" fill="#ffffff"/>
+    <path d="M144 23 L111 80 H263 L252 39 Z" fill="#eaf5f1"/>
+    <path d="M277 42 L291 80 H424 C413 58 394 47 369 43 Z" fill="#eaf5f1"/>
+    <rect x="198" y="-28" width="92" height="36" rx="10" fill="url(#gold)"/>
+    <text x="244" y="-4" text-anchor="middle" font-size="20" font-family="Arial" font-weight="800" fill="#173228">TAXI</text>
+    <circle cx="112" cy="134" r="42" fill="#173228"/>
+    <circle cx="112" cy="134" r="18" fill="#ffffff" opacity="0.85"/>
+    <circle cx="385" cy="134" r="42" fill="#173228"/>
+    <circle cx="385" cy="134" r="18" fill="#ffffff" opacity="0.85"/>
+    <path d="M23 84 H469" stroke="#d6aa45" stroke-width="12" stroke-linecap="round"/>
+  </g>
+</svg>
