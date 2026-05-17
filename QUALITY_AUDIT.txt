@@ -1,0 +1,54 @@
+UAE Safe Travel Quality Audit
+
+placeholder_number_removed: PASS
+new_phone_display_present: PASS
+new_tel_present: PASS
+new_wa_present: PASS
+no_hash_only_links: PASS
+canonical_present: PASS
+faq_schema_present: PASS
+taxi_schema_present: PASS
+stylesheet_linked: PASS
+script_linked: PASS
+href_count: 38
+dead_end_or_missing_asset_links: PASS
+
+Complaint Button Update
+
+complaint_button_text_present: PASS
+complaint_whatsapp_message_present: PASS
+new_phone_display_present: PASS
+new_wa_present: PASS
+no_hash_only_links: PASS
+dead_end_or_missing_asset_links: PASS
+href_count: 43
+dead_end_or_missing_asset_links_detail: PASS
+
+Booking Form Update
+
+booking_form_present: PASS
+date_field_present: PASS
+to_field_present: PASS
+from_field_present: PASS
+people_field_present: PASS
+additional_info_field_present: PASS
+form_whatsapp_js_present: PASS
+new_phone_display_present: PASS
+no_hash_only_links: PASS
+dead_end_or_missing_asset_links: PASS
+href_count: 42
+dead_end_or_missing_asset_links_detail: PASS
+
+Optional Map Link Field Update
+
+to_map_field_present: PASS
+from_map_field_present: PASS
+optional_map_fields_subtle_css_present: PASS
+to_map_whatsapp_message_present: PASS
+from_map_whatsapp_message_present: PASS
+booking_form_present: PASS
+new_phone_display_present: PASS
+no_hash_only_links: PASS
+dead_end_or_missing_asset_links: PASS
+href_count: 42
+dead_end_or_missing_asset_links_detail: PASS
